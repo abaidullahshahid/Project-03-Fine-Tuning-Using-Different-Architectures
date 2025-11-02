@@ -1,0 +1,19 @@
+# Ignore Python virtual environment
+venv/
+.env/
+
+# Ignore large model files
+*.bin
+*.pt
+*.safetensors
+*.h5
+*.ckpt
+
+# Ignore cached files
+__pycache__/
+.ipynb_checkpoints/
+*.log
+*.csv
+*.json
+*.zip
+*.tar.gz
